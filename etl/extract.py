@@ -18,7 +18,7 @@ def extract_data(file_path=None):
     try:
         print(f"Extracting data from {file_path}")
         data = pd.read_csv(file_path)
-        print("Extraction complete")
+        print("Extraction done")
         return data
     except Exception as e:
         print(f"Error during extraction: {e}")
